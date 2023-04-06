@@ -1,0 +1,58 @@
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 1024px) {
+  .padd {
+    padding: 60px 0;
+  }
+  .depart {
+    padding: 10px 0 30px;
+  }
+  .trip {
+    padding: 0 30px;
+  }
+  .endposition {
+    justify-content: end;
+  }
+}
+@media (max-width: 991px) {
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+  .headfont {
+    font-size: 30px;
+  }
+  .sizes {
+    font-size: 35px;
+  }
+  .trip {
+    padding: 0 15px;
+  }
+  .padd {
+    padding: 30px 0 80px;
+  }
+  .port {
+    padding: 15px;
+  }
+  .pump {
+    padding: 15px;
+  }
+  .loop img {
+    height: auto;
+  }
+  .spaceup {
+    padding: 15px 0;
+  }
+}
+@media (max-width: 767px) {
+  .direction {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 525px) {
+  .headfont {
+    font-size: 25px;
+  }
+  .netlify {
+    font-size: 14px;
+  }
+}
